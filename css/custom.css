@@ -1,0 +1,29 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon/icomoon.eot?-ee0u0f');
+  src:url('../fonts/icomoon/icomoon.eot?#iefix-ee0u0f') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff?-ee0u0f') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf?-ee0u0f') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg?-ee0u0f#icomoon') format('svg');
+}
+
+/*Styling for About, Gallery and Contact pages
+/*Tried to retain the header and fonts similar to the one in index page*/
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.intro-effect-side .codrops-demos a, a {
+  color: #43939d;
+}
+
+.intro-effect-side .codrops-demos a.current-demo {
+  border-bottom: 3px solid #43939d;
+}
+
+
